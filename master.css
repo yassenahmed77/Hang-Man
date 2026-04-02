@@ -223,6 +223,7 @@ hr{
     margin: 5px;
     text-transform: uppercase;
     cursor: pointer;
+    transition: .3s;
 }
 /* Responsive */
 @media (max-width: 480px){
@@ -237,6 +238,9 @@ hr{
     opacity: .2;
     pointer-events: none;
     transition: .2s;
+}
+.content .letters div:hover{
+    background-color:#3f51b5f1 ;
 }
 .chosen-letters{
     background-color: #f8f8f8;
